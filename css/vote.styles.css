@@ -1,0 +1,44 @@
+
+
+body{
+	background:#dddddd;
+	min-width:300px;
+	margin:0;
+	text-align:center;
+}
+header{
+	background:#29bde0;
+	height:60px;
+	width:100%;
+	position:fixed;
+	top:0; /*距顶部0*/ 
+	z-index:999;
+}
+.head_btn1{
+	background:#29bde0;
+	height:60px;
+	border:none;/*无边框*/ 
+	outline:none;/*激活时无边框*/ 
+	margin-left:10px;
+	color: #fff;
+	font-size: 20px;
+	float:left;
+}
+.head_btn2{
+	background:#29bde0;
+	height:60px;
+	border:none;
+	outline:none;
+	margin-right:10px;
+	color: #fff;
+	font-size: 20px;
+	float:right;
+}
+.head_text{
+	font-size: 20px;
+	color: #fff;
+	margin:0 auto;
+	position:relative;
+	top:15px; /*距顶部50%*/ 
+	
+}
