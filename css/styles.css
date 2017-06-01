@@ -2,3 +2,28 @@ header{
 	background:#29bde0;
 	height:60px;
 }
+body{
+	background:#dddddd;
+	min-width:300px;
+}
+.onebtn{
+	background:#29bde0;
+	height:60px;
+	border:none;
+	outline:none;
+	margin-left:10px;
+	color: #fff;
+	font-size: 28px;
+}
+
+.last_time_game{
+	background:#FBFCFC;
+	text-align:center;
+	height:80px;
+	width:90%;
+	float:right;
+	color: #BDC3C7;
+	font-size: 20px;
+	padding-top:25px;
+	margin-top:20px;
+}
