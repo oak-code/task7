@@ -6,6 +6,7 @@ body{
 	background:#dddddd;
 	min-width:300px;
 	margin:0;
+	text-align:center;
 }
 .onebtn{
 	background:#29bde0;
@@ -15,37 +16,73 @@ body{
 	margin-left:10px;
 	color: #fff;
 	font-size: 28px;
+	float:left;
 }
 
 .last_time_game{
 	background:#FBFCFC;
 	text-align:center;
-	height:80px;
-	width:95%;
-	float:right;
+	height:60px;
+	width:90%;
 	color: #BDC3C7;
-	font-size: 20px;
-	padding-top:25px;
-	margin-top:20px;
+	font-size: 18px;
+	padding-top:18px;
+	
+	margin:0 auto;
+	margin-top:15px;
+}
+.menu-right{
+	float:right;
+	margin-right:15px;
 }
 .game{
+	margin:0 auto;
 	background:#FBFCFC;
 	text-align:center;
-	width:95%;
-	float:right;
+	width:90%;
 	color: #BDC3C7;
 	font-size: 20px;
 	margin-top:20px;
+	position:relative;
+	
 }
 .game_name{
 	text-align:center;
 	width:100%;
 	float:right;
 	color: #FCCE2F;
-	font-size: 20px;
+	font-size: 18px;
 	padding-top:20px;
 	padding-bottom:20px;
 	border-width: 0  0 1px 0;
 	border-style: solid;
 	border-color:  #FCCE2F;
+}
+.game_button{
+	background:#29bde0;
+	border:none;
+	outline:none;
+	color: #fff;
+	width:80%;
+	height:70px;
+	margin-top:15px;
+	border-radius: 0px; 
+	
+}
+.user_num{
+	margin-top:15px;
+	font-size: 15px;
+}
+.foot_btn{
+	border-radius: 50px; 
+	border:none;
+	outline:none;
+	height:12px;
+	background:#dddddd;
+}
+.triangle{
+	color:#FFD306;
+	position:absolute;
+	top:50%; /*距顶部50%*/ 
+	left:94%; 
 }
