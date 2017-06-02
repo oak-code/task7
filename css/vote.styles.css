@@ -1,18 +1,36 @@
-
+html{
+	background:#ffffff;
+}
 
 body{
 	background:#dddddd;
-	min-width:300px;
-	margin:0;
+	min-width:320px;
+	max-width:768px;
+	margin:0 auto;
 	text-align:center;
 }
 header{
+
 	background:#29bde0;
 	height:60px;
 	width:100%;
 	position:fixed;
 	top:0; /*距顶部0*/ 
 	z-index:999;
+	max-width:768px;
+}
+main{
+	padding-top:60px;
+	background:#29bde0;
+	padding-bottom:80px;
+}
+footer{
+	background:#29bde0;
+	width:100%;
+	padding: 15px  15px 20px 10px;	
+	position:fixed;
+	bottom:0; /*距顶部0*/ 
+	max-width:768px;
 }
 .head_btn1{
 	background:#29bde0;
@@ -40,5 +58,94 @@ header{
 	margin:0 auto;
 	position:relative;
 	top:15px; /*距顶部50%*/ 
-	
+}
+.main_head{
+	background:rgb(185,233,245);
+	width:100%;
+	height:40px;
+	color: rgb(70,70,70);
+	font-size: 15px;
+	padding-top:10px;
+	padding-left:30px;
+	text-align:left;
+}
+.triangle-bottom{
+	color:rgb(185,233,245);
+	margin:0;
+	position:relative;
+	right:200px;
+	top:25px;
+}
+.play_box{
+	background:rgb(251,180,53);
+	border-radius: 50px; 
+	width:30px;
+	height:30px;
+	position:relative;
+	bottom:6px;
+	float:right;
+	margin-right:20px;
+}
+
+.play{
+	color:#fff;
+	margin:0;
+	position:relative;
+	left: 8px;
+    top: 5px;
+}
+.main_click{
+	background:#29bde0;
+	width:100%;
+	height:40px;
+	color: #fff;
+	padding-top:10px;
+	padding-left:50px;
+	text-align:left;
+}
+.main_btn{
+	background:rgb(245,201,123);
+	width:80px;
+	height:90px;
+	border-width: 3px  3px 3px 3px;
+	border-style: solid;
+	border-color:  #ffffff;
+	margin:0 auto;
+	font-size: 20px;
+	padding-top:20px;
+}
+
+.box{
+	height:120px;
+	margin:0 auto;
+	width:100%;
+	background:#29bde0;
+}
+.btn_box{
+	width:33.333333%;
+	float:left;	
+}
+.main_btn_num{
+	background:rgb(131,176,154);
+	width:100%;
+	height:20px;
+	font-size: 15px;
+	margin-top:16px;
+	color: #fff;
+}
+.btn_img_box{
+	display:none;
+}
+.btn_box:hover .btn_img_box{display:block;}
+.btn_img{
+	width:15px;
+}
+.footer_btn{
+	background:rgb(251,180,53);
+	width:80%;
+	height:50px;
+	border:none;
+	outline:none;
+	color: #fff;
+	font-size: 25px;
 }
