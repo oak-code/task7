@@ -1,4 +1,6 @@
-
+html{
+	background:#ffffff;
+}
 body{
 	background:#dddddd;
 	min-width:300px;
@@ -17,7 +19,10 @@ header{
 	max-width:786px;
 
 }
-
+main{
+	padding-top:75px;
+	padding-bottom:15px;
+}
 .onebtn{
 	background:#29bde0;
 	height:60px;
@@ -39,7 +44,7 @@ header{
 	font-size: 18px;
 	padding-top:18px;
 	margin:0 auto;
-	margin-top:75px;
+	
 }
 .menu-right{
 	float:right;
