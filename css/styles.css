@@ -1,3 +1,12 @@
+
+body{
+	background:#dddddd;
+	min-width:300px;
+	max-width:786px;
+	margin:0;
+	text-align:center;
+	margin:0 auto;
+}
 header{
 	background:#29bde0;
 	height:60px;
@@ -5,13 +14,10 @@ header{
 	position:fixed;
 	top:0; /*距顶部0*/ 
 	z-index:999;
+	max-width:786px;
+
 }
-body{
-	background:#dddddd;
-	min-width:300px;
-	margin:0;
-	text-align:center;
-}
+
 .onebtn{
 	background:#29bde0;
 	height:60px;
@@ -88,6 +94,10 @@ body{
 	color:#FFD306;
 	position:absolute;
 	top:50%; /*距顶部50%*/ 
-	left:94%; 
+	left:91%; 
 	font-size: 30px;
 }
+
+.foot_btn:hover{background:#29bde0;}
+.foot_btn:focus {background:#29bde0;}
+.foot_btn:link{background:#dddddd;}
