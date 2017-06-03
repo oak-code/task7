@@ -1,0 +1,145 @@
+html{
+	background:#ffffff;
+}
+
+body{
+	background:#dddddd;
+	min-width:320px;
+	max-width:768px;
+	margin:0 auto;
+	text-align:center;
+}
+header{
+	background:#29bde0;
+	height:60px;
+	width:100%;
+	position:fixed;
+	top:0; /*距顶部0*/ 
+	z-index:999;
+	max-width:768px;
+	border-bottom:1px solid #74d4eb;
+	
+	
+}
+main{
+	padding-top:60px;
+	background:#fff;
+	padding-bottom:80px;
+}
+footer{
+	
+	width:100%;
+	padding: 20px  0px 20px 0;	
+	position:fixed;
+	bottom:0; /*距顶部0*/ 
+	max-width:768px;
+}
+.footer_back{
+	max-width:768px;
+	position:fixed;
+	bottom:0; /*距顶部0*/ 
+	height:80px;
+	width:100%;
+	filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
+	background:#29bde0;
+}
+.head_btn1{
+	background:#29bde0;
+	margin-top:15px;
+	border:none;/*无边框*/ 
+	outline:none;/*激活时无边框*/ 
+	margin-left:10px;
+	margin-bottom:5px;
+	color: #fff;
+	font-size: 20px;
+	float:left;
+}
+.head_btn2{
+	background:#29bde0;
+	margin-top:15px;
+	border:none;
+	outline:none;
+	margin-right:10px;
+	color: #fff;
+	font-size: 20px;
+	float:right;
+}
+.head_text{
+	font-size: 20px;
+	color: #fff;
+	margin:0 auto;
+	position:relative;
+	top:15px; /*距顶部50%*/ 
+}
+
+.flower_box{
+	background:#29bde0;
+	width:100%;
+	height:100px;
+}
+.flower{
+	position:relative;
+	width:190px;
+}
+.trophy{
+	width:50px;
+	position:relative;
+	bottom:150px;
+	
+   
+}
+.flower_text{
+	font-size: 20px;
+	color:#fff;
+	position:relative;
+	bottom: 145px;
+}
+.game_text{
+	font-size: 17px;
+	color:rgb(255,200,101);
+	padding-top:10px;
+	padding-left:33px;
+	padding-right:33px;
+	text-align:left;
+	height:60px;
+}
+.game_statistics{
+	padding-top:100px;
+	background:#29bde0;
+	color:#fff;
+	font-size: 15px;
+	text-align:left;
+	padding-left:33px;
+	padding-bottom:10px;
+}
+.day_box{
+	text-align:left;
+	color:#a6a6a6;
+	padding-left:33px;
+}
+.day{
+	color:#515151;
+	font-size: 20px;
+}
+.footer_btn_1{
+	background:#f66f6f;
+	width:40%;
+	height:50px;
+	border:none;
+	border-radius:10px;
+	color: #fff;
+	font-size: 20px;
+	margin-right:6%;
+	
+}
+.footer_btn_2{
+	background:#fbb435;
+	width:40%;
+	height:50px;
+	border:none;
+	border-radius:10px;
+	color: #fff;
+	font-size: 20px;
+	margin-left:6%;
+
+}
