@@ -104,6 +104,7 @@ footer{
 	height:60px;
 }
 .game_statistics{
+	height:230px;
 	padding-top:100px;
 	background:#29bde0;
 	color:#fff;
@@ -111,6 +112,22 @@ footer{
 	text-align:left;
 	padding-left:33px;
 	padding-bottom:10px;
+}
+.lef{
+	width:33.3%;
+	float:left;
+}
+.cen{
+	width:33.3%;
+	float:left;
+}
+.rig{
+	width:33.3%;
+	float:right;
+}
+.wight100{
+	width:100%;
+	float:left;
 }
 .day_box{
 	text-align:left;
@@ -120,6 +137,12 @@ footer{
 .day{
 	color:#515151;
 	font-size: 20px;
+}
+.day2{
+	
+	font-size: 9px;
+	float:right;
+	margin-right:10%;
 }
 .footer_btn_1{
 	background:#f66f6f;
