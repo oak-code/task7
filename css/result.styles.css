@@ -139,10 +139,11 @@ footer{
 	font-size: 20px;
 }
 .day2{
+	width:33.3%;
 	
 	font-size: 9px;
 	float:right;
-	margin-right:10%;
+	
 }
 .footer_btn_1{
 	background:#f66f6f;
